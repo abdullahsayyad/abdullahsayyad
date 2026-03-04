@@ -19,14 +19,19 @@
 
 ## Projects
 
-### Distributed Microservices Platform
+### Financial Forensics Engine
 
-**Spring Boot · Java 21 · Kafka · gRPC · Docker**
+**NextJS · Python · Docker**
 
-* Built a 5-service backend system with API Gateway, Auth, Patient, Billing, and Analytics services
-* Implemented JWT-based authentication and stateless request validation at the gateway
-* Used gRPC for low-latency service calls and Kafka for async event communication
-* Containerized all services and used PostgreSQL with proper validation and exception handling
+* Built components of a graph-based financial intelligence engine that analyzes transactional datasets to detect potential money laundering and money muling patterns.
+
+* Developed transaction processing pipelines capable of ingesting and analyzing up to 10,000 financial transactions per dataset for forensic investigation.
+
+* Implemented graph construction and traversal logic to model financial flows between entities and identify suspicious transaction relationships.
+
+* Integrated bounded detection algorithms to compute ranked suspicion scores for accounts and transaction chains.
+
+* Enabled structured investigation outputs by generating JSON-based forensic reports and interactive visualizations for easier analysis of financial crime patterns.
 
 ---
 
