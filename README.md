@@ -3,9 +3,9 @@
 
 
 
-<h3 align="left">Languages and Tools</h3>
+<h3 align="center">Languages and Tools</h3>
 
-<p align="left">
+<p align="center">
 <a href="https://aws.amazon.com" target="_blank">
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="32" height="32" style="margin-right:12px"/>
 </a>
