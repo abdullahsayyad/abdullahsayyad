@@ -21,7 +21,7 @@
 
 ### Financial Forensics Engine
 
-**NextJS · Python · Docker**
+**NextJS · Python · FastAPI · Docker**
 
 * Built components of a graph-based financial intelligence engine that analyzes transactional datasets to detect potential money laundering and money muling patterns.
 
