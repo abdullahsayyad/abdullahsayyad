@@ -35,23 +35,19 @@
 
 ---
 
-### CUDA-Accelerated Ray Tracing Engine
+### Satellite Imagery Segmentation Model
 
-**C++ · CUDA**
+**Python · PyTorch · Google Colab · MatplotLib · CUDA**
 
-* Migrated a CPU ray tracer to GPU using CUDA
-* Achieved ~72× speedup by parallelizing ray generation and intersection logic
-* Implemented anti-aliasing, material scattering, and defocus blur
+* Implemented a U-Net based semantic segmentation model to analyze high-resolution satellite imagery and classify land-cover types at the pixel level.
 
----
+* Built and trained a deep learning pipeline in Python using Jupyter/Colab, handling preprocessing, model training, and evaluation for satellite image datasets.
 
-### AutoAgent & doc-RAG
+* Achieved ~86% segmentation accuracy on 384×384 satellite images, enabling reliable detection of features such as buildings, roads, and vegetation.
 
-**Python · FastAPI · RAG · LLMs**
+* Developed preprocessing and dataset preparation workflows for satellite imagery to improve model performance and training stability.
 
-* Built a multi-modal RAG pipeline (text + structured + visual data)
-* Optimized retrieval latency and handled large document corpora
-* Developed an autonomous browser agent using LLM reasoning and Selenium
+* Generated predicted segmentation masks and visual comparisons between original images and model outputs to validate model performance
 
 ---
 
