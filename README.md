@@ -59,37 +59,8 @@
 
 ---
 
-## Projects
+## Hackathon Projects
+- 🏦 **[Finance Forensics Engine](https://github.com/abdullahsayyad/Pied-Piper-Financial-Forensic-Engine)** - A graph based financial intelligence system that detects the presence of money laundering activities and money muling patterns
 
-### Financial Forensics Engine
 
-**NextJS · Python · FastAPI · Docker**
-
-* Built components of a graph-based financial intelligence engine that analyzes transactional datasets to detect potential money laundering and money muling patterns.
-
-* Developed transaction processing pipelines capable of ingesting and analyzing up to 10,000 financial transactions per dataset for forensic investigation.
-
-* Implemented graph construction and traversal logic to model financial flows between entities and identify suspicious transaction relationships.
-
-* Integrated bounded detection algorithms to compute ranked suspicion scores for accounts and transaction chains.
-
-* Enabled structured investigation outputs by generating JSON-based forensic reports and interactive visualizations for easier analysis of financial crime patterns.
-
----
-
-### Satellite Imagery Segmentation Model
-
-**Python · PyTorch · Google Colab · MatplotLib · CUDA**
-
-* Implemented a U-Net based semantic segmentation model to analyze high-resolution satellite imagery and classify land-cover types at the pixel level.
-
-* Built and trained a deep learning pipeline in Python using Jupyter/Colab, handling preprocessing, model training, and evaluation for satellite image datasets.
-
-* Achieved ~86% segmentation accuracy on 384×384 satellite images, enabling reliable detection of features such as buildings, roads, and vegetation.
-
-* Developed preprocessing and dataset preparation workflows for satellite imagery to improve model performance and training stability.
-
-* Generated predicted segmentation masks and visual comparisons between original images and model outputs to validate model performance
-
----
 
